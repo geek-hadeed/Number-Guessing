@@ -10,7 +10,7 @@ const guess = await inquirer.prompt([
     { message: "Guess A Number 1-10 : " ,Type: "number" ,name: "UserNumber"  }   
     ])
 
-if(guess.UserNumber === GuessNumber){
+if(guess.UserNumber === "GuessNumber"){
     console.log("You Guessed Right")
 }
 
