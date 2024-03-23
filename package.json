@@ -1,0 +1,19 @@
+{
+  "name": "hh_number-guessing1",
+  "version": "1.0.1",
+  "description": "A Number Guessing Game",
+  "main": "main.js",
+  "type": "module",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "geek-hadeed",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  }
+}
